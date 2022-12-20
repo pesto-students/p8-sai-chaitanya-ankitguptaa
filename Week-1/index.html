@@ -8,223 +8,123 @@
   <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css">
-  <style>
-    body {
-      font-family: 'Lato';
-      font-size: 14px;
-      background-color: white;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-
-    th,
-    td {
-      text-align: left;
-      padding: 1rem;
-    }
-
-    tr:nth-child(even) {
-      background-color: #f0f0f0;
-    }
-
-    .sidepanel {
-      background-color: #f0f0f0;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-
-    .sidepanelitems {
-      padding-top: 2rem;
-    }
-
-    .topsection {
-      display: flex;
-      text-align: center;
-      background-color: #454545;
-      padding: 2.5rem;
-      color: white;
-    }
-
-    .topsectiontext {
-      display: flex;
-      flex-direction: column;
-      padding-left: 5rem;
-      text-align: left;
-      float: left;
-    }
-
-    .topsectionicons {
-      display: flex;
-      padding-top: 3rem;
-      flex-direction: row;
-    }
-
-    .topsectionicons div {
-      padding-right: 2rem;
-    }
-
-    .mainsection {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .top-container {
-      display: flex;
-      flex-direction: row;
-      float: left;
-      width: 100%;
-    }
-
-    .botton-container {
-      display: flex;
-      flex-direction: row;
-      background-color: #43689b;
-      text-align: left;
-      color: white;
-      float: left;
-    }
-
-    .page {
-      display: flex;
-      flex-direction: column;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
   <title>CattyBoard</title>
 </head>
 
 <body>
-<div class="page">
-  <div class="top-container">
-    <div class="sidepanel">
-      <ul>
-        <li><i class="la la-bars"></i></li>
-        <li><i class="sidepanelitems la la-home"></i></li>
-        <li><i class="sidepanelitems la la-search"></i></li>
-        <li><i class="sidepanelitems la la-volume-up"></i></li>
-        <li><i class="sidepanelitems la la-user"></i></li>
-        <li><i class="sidepanelitems la la-cog"></i></li>
-        <li><i class="sidepanelitems la la-spotify"></i></li>
-        <li><i class="sidepanelitems la la-soundcloud"></i></li>
-      </ul>
-    </div>
-    <div class="mainsection">
-      <div class="topsection">
+  <div class="page">
+    <div class="top-container">
+      <div class="sidepanel">
+        <div><i class="sidepanelitems la la-bars"></i></div>
+        <div><i class="sidepanelitems la la-home"></i></div>
+        <div><i class="sidepanelitems la la-search"></i></div>
+        <div><i class="sidepanelitems la la-volume-up"></i></div>
+        <div><i class="sidepanelitems la la-user"></i></div>
+        <div><i class="sidepanelitems la la-cog"></i></div>
+        <div><i class="sidepanelitems la la-spotify"></i></div>
+        <div><i class="sidepanelitems la la-soundcloud"></i></div>
+      </div>
+      <div class="mainsection">
+        <div class="topsection">
           <!--Cattyboard album image URL-->
           <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" style="width:10rem;height:10rem;">
-        <div class="topsectiontext">
-          <div>
-            <ul>
-              <li>
+          <div class="topsectiontext">
+            <div style="flex-flow: column;">
+              <div>
                 <h3>CattyBoard Top 100 Single Charts(11.06.36)</h3>
-              </li>
-              <li>Unknown Artist</li>
-              <li>2016.Charts.100 songs</li>
-            </ul>
-          </div>
-          <div>
-            <div class="topsectionicons">
-              <div><i class="la la-play"></i> Play All </div>
-              <div><i class="la la-plus"></i> Add Top</div>
-              <div><i class="la la-ellipsis-h"></i> More</div>
+              </div>
+              <div>Unknown Artist</div>
+              <div>2016.Charts.100 songs</div>
+            </div>
+            <div>
+              <div class="topsectionicons">
+                <div><i class="la la-play"></i>Play All </div>
+                <div><i class="la la-plus"></i>Add Top</div>
+                <div><i class="la la-ellipsis-h"></i> More</div>
+              </div>
             </div>
           </div>
         </div>
+        <div>
+          <table>
+            <tr>
+              <td>
+                One Dance
+              </td>
+              <td>
+                Crake feat CatKids & Cyla
+              </td>
+              <td>
+                2:54
+              </td>
+              <td>
+                <button type="button">CATTY CLOUD SYNC</button>
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                2 Panda
+              </td>
+              <td>
+                Cattee
+              </td>
+              <td>
+                4:06
+              </td>
+              <td>
+                <button type="button">CATTY CLOUD SYNC</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                3 Can't Stop the Feeling!
+              </td>
+              <td>
+                Catin Cimberlake
+              </td>
+              <td>
+                3:56
+              </td>
+              <td>
+                <button type="button">CATTY CLOUD SYNC</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                4 Work from Home
+              </td>
+              <td>
+                Cat Harmony feat Colla
+              </td>
+              <td>
+                3:34
+              </td>
+              <td>
+                <button type="button">CATTY CLOUD SYNC</button>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
-      <div>
-        <table>
-          <tr>
-            <td>
-              One Dance
-            </td>
-            <td>
-              Crake feat CatKids & Cyla
-            </td>
-            <td>
-              2:54
-            </td>
-            <td>
-              <button type="button">CATTY CLOUD SYNC</button>
-      
-            </td>
-          </tr>
-          <tr>
-            <td>
-              2 Panda
-            </td>
-            <td>
-              Cattee
-            </td>
-            <td>
-              4:06
-            </td>
-            <td>
-              <button type="button">CATTY CLOUD SYNC</button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              3 Can't Stop the Feeling!
-            </td>
-            <td>
-              Catin Cimberlake
-            </td>
-            <td>
-              3:56
-            </td>
-            <td>
-              <button type="button">CATTY CLOUD SYNC</button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              4 Work from Home
-            </td>
-            <td>
-              Cat Harmony feat Colla
-            </td>
-            <td>
-              3:34
-            </td>
-            <td>
-              <button type="button">CATTY CLOUD SYNC</button>
-            </td>
-          </tr>
-        </table>
+    </div>
+    <div class="botton-container">
+      <div class="padding-border">
+        <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" style="width:5rem;height:5rem;">
+      </div>
+      <div class="padding-border" style="flex-flow: column;">
+        <div>If It Ain't Love</div>
+        <div>Catson Derulo</div>
+      </div>
+      <div class="button-container">
+        <div class="padding-border"><i class="la la-step-backward"></i></div>
+        <div class="padding-border"><i class="la la-step-forward"></i></div>
+        <div class="padding-border"><i class="la la-undo-alt"></i></div>
+        <div class="padding-border"><i class="la la-random"></i></div>
       </div>
     </div>
   </div>
-  <div class="botton-container">
-    <div style="padding: 1rem 1rem 1rem 1rem;">
-      <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" style="width:5rem;height:5rem;">
-    </div>
-    <div  style="padding: 1rem 1rem 1rem 1rem;">
-      <p>
-      <ul>
-        <li>If It Ain't Love</li>
-        <li>Catson Derulo</li>
-      </ul>
-      </p>
-    </div>
-    <div  style="padding: 1rem 1rem 1rem 1rem;">
-      <p>
-        <i class="la la-step-backward"></i>&ensp;&ensp;&ensp;&ensp;
-        <i class="la la-step-forward"></i>&ensp;&ensp;&ensp;&ensp;
-        <i class="la la-undo-alt"></i>&ensp;&ensp;&ensp;&ensp;
-        <i class="la la-random"></i>
-      </p>
-    </div>
-  </div>
-</div>
 </body>
 
 </html>
