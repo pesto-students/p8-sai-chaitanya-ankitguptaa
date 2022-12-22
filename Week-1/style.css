@@ -1,0 +1,112 @@
+body {
+    font-family: 'Lato';
+    font-size: 13px;
+    background-color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 1rem;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+
+  .sidepanel {
+    background-color: #f0f0f0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sidepanelitems {
+    padding-top: 2rem;
+  }
+
+  .topsection {
+    display: flex;
+    text-align: center;
+    background-color: #454545;
+    padding: 2.5rem;
+    color: white;
+  }
+
+  .topsection img {
+    width:10rem;height:10rem;
+  }
+
+  .topsectiontext {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    text-align: left;
+    float: left;
+  }
+
+  .topsectionicons {
+    display: flex;
+    padding-top: 3rem;
+    flex-direction: row;
+  }
+
+  .topsectionicons div {
+    padding-right: 2rem;
+  }
+
+  .mainsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 100%;
+  }
+
+  .botton-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #43689b;
+    text-align: left;
+    color: white;
+    float: left;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .padding-border {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .column{
+    flex-flow: column;
+  }
+
+  .padding-border img {
+    width:5rem;height:5rem;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
