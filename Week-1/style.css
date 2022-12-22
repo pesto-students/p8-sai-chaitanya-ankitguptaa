@@ -43,6 +43,10 @@ body {
     color: white;
   }
 
+  .topsection img {
+    width:10rem;height:10rem;
+  }
+
   .topsectiontext {
     display: flex;
     flex-direction: column;
@@ -91,6 +95,14 @@ body {
 
   .padding-border {
     padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .column{
+    flex-flow: column;
+  }
+
+  .padding-border img {
+    width:5rem;height:5rem;
   }
 
   .button-container {
