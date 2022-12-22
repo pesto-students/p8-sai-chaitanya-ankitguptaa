@@ -1,2 +1,58 @@
-GIT
-----
+What is a browser?
+------------------
+
+A web browser, also known as a “browser,” is an application software that allows users to find, access, display, and view websites. Microsoft Internet Explorer, Google Chrome, Mozilla Firefox, and Apple Safari are all popular web browsers.
+
+Web browsers are primarily used to display and access websites on the internet, as well as other content created with programming languages such as Hypertext Markup Language (HTML) and Extensible Markup Language (XML) (XML). Browsers convert Hypertext Transfer Protocol (HTTP) web pages and websites into human-readable content. They can also show other protocols and prefixes, such as secure HTTP (HTTPS), File Transfer Protocol (FTP), email handling (mailto:), and files (file:).
+
+A web browser’s primary function is to render HTML, the code that is used to design or “mark up” web pages. When a browser loads a web page, it processes the HTML, which may contain text, links, and references to images and other items like CSS and JavaScript functions. The browser then renders these objects in the browser window after processing them.
+
+What is the main functionality of the browser?
+----------------------------------------------
+
+The main task is to collect information from the Internet and make it accessible to users.
+A web browser can be used to visit any website. When we type a URL into a browser, the web server redirects us to that website.
+Plugins are available on the web browser to run Java applets and flash content.
+It simplifies Internet surfing because once we arrive at a website, we can quickly check the hyperlinks and access a wealth of information.
+Internal cache is used by browsers and is saved so that the user can open the same webpage multiple times without losing any data.
+A web browser can open multiple web pages at the same time.
+Back, forward, reload, stop reload, home, and other options are available on these web browsers, making them simple and convenient to use.
+
+High Level Components of a browser
+----------------------------------
+
+Back and forward buttons are used to navigate to the previous URL and to move forward.
+A refresh or reload button that allows you to reload the updated version of the URI.
+A stop button to prevent the website from being loaded.
+A home button that takes the user back to his or her home page.
+An address bar for entering and displaying the Uniform Resource Identifier (URI) of the desired resource.
+A search bar for entering keywords into a search engine. In some browsers, the search bar and the address bar are combined.
+A status bar that displays the progress of the resource loading as well as the URI links.
+The viewport is the space of the webpage that is visible within the browser window.
+The ability to access a page’s HTML source by viewing the source code.
+
+Rendering Engine and it's use
+------------------------------
+It’s able to render the content of given URL in browser screen and interprets the HTML, XML and CSS. It is single threaded. By default, It displays data according to your specified content type (MIME). For Example HTML, Images, XML, CSS, JSON, PDF etc.
+
+Key operation of Rendering engine is HTML Parser. Each browser use various engines like Chrome and Opera uses Blink, Firefox uses Gecko, IE Edge uses EdgeHTML, Internet Explorer uses Trident, Apple Safari uses WebKit.
+
+
+https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/edit#
+
+Critical Rendering Path
+------------------------
+https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path#:~:text=The%20Critical%20Rendering%20Path%20is,render%20path%20improves%20render%20performance.
+
+Script Processor
+----------------
+
+Pre-processing of scripts in web browsers
+------------------------------------------
+https://patents.google.com/patent/EP2885703B1/
+
+
+The 4 Principles of Accessibility
+==================================
+https://ialabs.ie/understanding-the-pour-principles-of-accessibility/#:~:text=There%20are%20four%20main%20guiding,into%20these%20four%20main%20aspects.
+
