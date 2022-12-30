@@ -1,0 +1,31 @@
+.contact-form {
+    width: 700px;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+    background-color: aquamarine;
+}
+
+.input-group {
+    display: flex;
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: .06em;
+}
+.input-group > label {
+ margin-right: 1em;
+ padding: .5em 0;
+}
+
+button {
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
