@@ -9,17 +9,29 @@
     background-color: aquamarine;
 }
 
+input:required {
+    background-color: yellow;
+}
+
 .input-group {
-    display: flex;
-    padding: 1%;
+    display:table;
+    padding: 2%;
     width: 100%;
     text-align: center;
     margin: 0 auto;
     letter-spacing: .06em;
 }
 .input-group > label {
- margin-right: 1em;
- padding: .5em 0;
+    float: left;
+}
+
+.input-group > input {
+    float: right;
+}
+
+.input-group>label {
+    margin-right: 1em;
+    padding: .5em 0;
 }
 
 button {
