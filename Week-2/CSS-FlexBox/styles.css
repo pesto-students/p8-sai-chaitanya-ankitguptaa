@@ -1,0 +1,22 @@
+#app {
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* works with flex direction as row */
+    align-items: center; /* works with flex direction as column */
+    height: 100px;
+}
+#app > div {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-style: solid;
+    border-color: red;
+}
+
+p {
+    color: red;
+    font-size: 1.5rem;
+}
