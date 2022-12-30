@@ -29,6 +29,10 @@ input:required {
     float: right;
 }
 
+.input-group > select {
+    float: right;
+}
+
 .input-group>label {
     margin-right: 1em;
     padding: .5em 0;
