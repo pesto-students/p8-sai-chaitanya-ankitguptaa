@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title> CSS - Position Sample
+    </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Position Static</a>|
+            <a href="position-absolute.html">Position Absolute</a>|
+            <a href="position-fixed.html">Position Fixed</a>|
+            <a href="position-sticky.html">Position Sticky</a>|
+            <a href="position-relative.html">Position Relative</a>
+        </nav>
+    </header>
+    <div class="example">
+        <div><h2>Position Static<h2></div>
+        <p>The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default value.</p>
+        <div id="red" class="box">
+        </div>
+        <div id="blue" class="box static left-50 right-50">
+            position: static;<br>
+            left: 50px;<br>
+            right: 50px;
+        </div>
+        <div id="green" class="box">
+        </div>
+        <div id="yellow" class="box">
+        </div>
+        <div id="black" class="box">
+        </div>
+    </div>
+    <!--absolute, relative, sticky, static, fixed.
+    static => actual position of the element will be rendered.
+    relative => relative to the actual position of itself
+    fixed => fixed w.r.t. the viewport. relative to the viewport.
+    it wil not occupy space.
+    sticky => depends on scroll, depending on top and bottom, behaviour changes from relative to fixed.
+    -->
+</body>
+
+</html>
