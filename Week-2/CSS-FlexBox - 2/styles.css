@@ -1,0 +1,19 @@
+#app {
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+}
+#app > div {
+    width: 100px;
+    height: 100px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-style: solid;
+    border-color: red;
+    background-color: brown;
+}
+
+p {
+    color: red;
+    font-size: 1.5rem;
+}

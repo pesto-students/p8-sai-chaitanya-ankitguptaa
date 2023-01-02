@@ -1,0 +1,122 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+ color: blanchedalmond;
+ text-align: center;
+ background-color: #252526;
+ font-size: 15px;
+}
+
+.example {
+    width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    padding: 1%;
+    height: 150px;
+}
+
+a > link {
+    color: blanchedalmond;
+}
+
+a:visited {
+    color: blanchedalmond;
+  }
+
+.box {
+    height: 150px;
+    width: 150px;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#black {
+    background-color: black;
+}
+
+.top-50 {
+    top: 50px;
+}
+
+a {
+    font-weight: bolder;
+}
+
+.top-200 {
+    top: 200px;
+}
+
+.left-200 {
+    left: 200px;
+}
+
+.left-50 {
+    left: 50px;
+}
+
+.right-50 {
+    right: 50px;
+}
+
+.bottom-0 {
+    bottom: 0px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.unset {
+    position: unset;
+}
+
+.initial {
+    position: initial;
+}
+
+.inherit {
+    position: inherit;
+}
+
+.static {
+    position: static;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+}

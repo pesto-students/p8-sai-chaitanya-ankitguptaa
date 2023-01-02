@@ -1,0 +1,37 @@
+#app {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation-name: slide,pulse,grow;
+    animation-duration: 10s, .25s, .25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes grow {
+    to {
+        height: 150px;
+        width: 100px;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(300px);
+    }
+}
