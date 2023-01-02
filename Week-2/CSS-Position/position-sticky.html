@@ -27,18 +27,18 @@
         <p>The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to the initial containing block established by the viewport, except when one of its ancestors has a transform, perspective, or filter property set to something other than none (see the CSS Transforms Spec), or the will-change property is set to transform, in which case that ancestor behaves as the containing block. (Note that there are browser inconsistencies with perspective and filter contributing to containing block formation.) Its final position is determined by the values of top, right, bottom, and left.
 
             This value always creates a new stacking context. In printed documents, the element is placed in the same position on every page.</p>
-        <div id="red" class="box">
-        </div>
-        <div id="blue" class="box sticky top-50 left-50">
-            position: sticky;<br>
-            left: 50px;<br>
-            top: 50px;
-        </div>
-        <div id="green" class="box">
-        </div>
-        <div id="yellow" class="box">
-        </div>
-        <div id="black" class="box">
+        <div class="container">
+            <div id="red" class="box">
+            </div>
+            <div id="blue" class="box sticky top-50 left-50">
+                position: sticky;<br>
+                left: 50px;<br>
+                top: 50px;
+            </div>
+            <div id="green" class="box">
+            </div>
+            <div id="yellow" class="box">
+            </div>
         </div>
     </div>
     <!--absolute, relative, sticky, static, fixed.

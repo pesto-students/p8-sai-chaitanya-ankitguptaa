@@ -1,3 +1,7 @@
+* {
+    margin: 0 auto;
+}
+
 body {
  color: blanchedalmond;
  text-align: center;
@@ -5,8 +9,14 @@ body {
  font-size: 15px;
 }
 
+.example {
+    width: 100%;
+    margin: 0 auto;
+}
+
 p {
     padding: 1%;
+    height: 150px;
 }
 
 a > link {
@@ -70,10 +80,6 @@ a {
     bottom: 0px;
 }
 
-.example {
-    width: 100%;
-}
-
 .absolute {
     position: absolute;
 }
@@ -104,4 +110,13 @@ a {
 
 .static {
     position: static;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
 }

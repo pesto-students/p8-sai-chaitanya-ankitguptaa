@@ -23,21 +23,27 @@
         </nav>
     </header>
     <div class="example">
-        <div><h2>Position Absolute<h2></div>
-        <p>The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.
-            This value creates a new stacking context when the value of z-index is not auto. The margins of absolutely positioned boxes do not collapse with other margins.</p>
-        <div id="red" class="box">
+        <div>
+            <h2>Position Absolute<h2>
         </div>
-        <div id="blue" class="box absolute top-200 left-200">
-            position: absolute;<br>
-            top: 200px;<br>
-            left: 200px;
-        </div>
-        <div id="green" class="box">
-        </div>
-        <div id="yellow" class="box">
-        </div>
-        <div id="black" class="box">
+        <p>The element is removed from the normal document flow, and no space is created for the element in the page
+            layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed
+            relative to the initial containing block. Its final position is determined by the values of top, right,
+            bottom, and left.
+            This value creates a new stacking context when the value of z-index is not auto. The margins of absolutely
+            positioned boxes do not collapse with other margins.</p>
+        <div class="container relative">
+            <div id="red" class="box">
+            </div>
+            <div id="blue" class="box absolute top-50 left-50">
+                position: absolute;<br>
+                top: 50px;<br>
+                left: 50px;
+            </div>
+            <div id="green" class="box">
+            </div>
+            <div id="yellow" class="box">
+            </div>
         </div>
     </div>
     <!--absolute, relative, sticky, static, fixed.
