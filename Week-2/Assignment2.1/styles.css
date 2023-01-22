@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+header {
+    width: 100%;
+    background-color: #2137fc;
+    color: white;
+    position: fixed;
+}
+
+footer {
+    background-color: #2137fc;
+    color: white;
+    position: fixed;
+    left:0;
+    bottom: 0;
+}
+
+img {
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+main {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-details {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+main > article, figure, section {
+    text-align: left;
+    box-sizing: border-box;
+    padding: 1.5%;
+    width: 40vw;
+    min-width: 300px;
+}
+
+ul {
+    display: table-row;
+    float: right;
+}
+
+li {
+    display: table-cell;
+    padding: 10px 10px 10px 10px;
+}
+
+nav > h2 {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
