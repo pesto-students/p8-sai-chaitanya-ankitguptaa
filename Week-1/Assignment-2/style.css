@@ -1,0 +1,113 @@
+body {
+  font-family: "Lato";
+  font-size: 14px;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.side-panel {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.side-panel-items {
+  padding: 16px;
+}
+
+.top-section {
+  display: flex;
+  text-align: center;
+  background-color: #454545;
+  padding: 60px;
+  color: white;
+}
+
+.top-section img {
+  width: 150px;
+  height: 150px;
+}
+
+.top-section-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  text-align: left;
+  float: left;
+}
+
+.top-section-icons {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: row;
+}
+
+.top-section-icons div {
+  padding-right: 20px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 100%;
+}
+
+.botton-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #43689b;
+  text-align: left;
+  color: white;
+  float: left;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.padding-border {
+  padding: 10px;
+}
+
+.column {
+  flex-flow: column;
+}
+
+.padding-border img {
+  width: 100px;
+  height: 100px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
