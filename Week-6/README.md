@@ -18,10 +18,18 @@ Explanation 2: The subarray [4,-1,2,1] has the maximum possible sum of 6.
 Problem 6.2 Spiral Order Matrix II
 Problem Description Given a matrix of m * n elements (m rows, n columns), return all elements of the matrix in spiral order.
 
-Example: Given the following matrix: [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ] You should return[1, 2, 3, 6, 9, 8, 7, 4, 5]
+Example: Given the following matrix:
+[
+    [ 1, 2, 3 ],
+    [ 4, 5, 6 ],
+    [ 7, 8, 9 ]
+]
+
+You should return
+[1, 2, 3, 6, 9, 8, 7, 4, 5]
 
 Problem 6.3 Sort array of 0's,1's and 2's
-Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascendingorder. 
+Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order. 
 
 Example 1:
 Input:
@@ -72,12 +80,12 @@ Assignment Introduction:
 
 Benchmarks
 ●All the problem should have an optimize solutions
-●All the problem statement should have the time and space complexity mention inthe code comment
+●All the problem statement should have the time and space complexity mention in the code comment
 ●The code should be readable and must follow good coding practice.
 ●Keep the code as modular as you can.
 
 Learning Outcomes:
-●Student will have a good grip on calculating time and space complexity of givenloop or program
+●Student will have a good grip on calculating time and space complexity of given loop or program
 ●Students will learn how to iterate and process array
 ●Students will learn how to use Two pointer and Kadane Algorithm to optimizecode.
 ●Students will be able to solve easy to medium level array problem
