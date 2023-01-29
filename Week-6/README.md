@@ -52,14 +52,19 @@ Constraints: 1 <= N <= 10^6 0 <= A[i] <= 2
 
 Problem 6.4 : Best time to buy and sell stock
 
-You are given an array prices where prices[i] is the price of a given stock on the ith day.You want to maximize your profit by choosing a single day to buy one stock andchoosing a different day in the future to sell that stock.Return the maximum profit youcan achieve from this transaction. If you cannot achieve any profit, return 0.
+You are given an array prices where prices[i] is the price of a given stock on the ith day.You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
-Example 1: Input: prices = [7,1,5,3,6,4] Output: 5 Explanation: Buy on day 2 (price = 1)and sell on day 5 (price = 6), profit = 6-1 = 5. Note that buying on day 2 and selling onday 1 is not allowed because you must buy before you sell. Example 2: Input: prices =[7,6,4,3,1] Output: 0 Explanation: In this case, no transactions are done and the maxprofit = 0 Constraints: 1 <= prices.length <= 105 0 <= prices[i] <= 104
+Example 1: Input: prices = [7,1,5,3,6,4] Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5. Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+
+Example 2: Input: prices =[7,6,4,3,1] Output: 0
+Explanation: In this case, no transactions are done and the max profit = 0
+Constraints: 1 <= prices.length <= 105 0 <= prices[i] <= 104
 
 Problem 6.5: Pair With Given Difference
-Given an one-dimensional unsorted array A containing N integers.You are also given aninteger B, find if there exists a pair of elements in the array whose difference is B.Return1 if any such pair exists else return 0. Problem Constraints 1 <= N <= 105 -103 <= A[i]<= 103 -105 <= B <= 105
+Given an one-dimensional unsorted array A containing N integers.You are also given an integer B, find if there exists a pair of elements in the array whose difference is B.Return1 if any such pair exists else return 0. Problem Constraints 1 <= N <= 105 -103 <= A[i]<= 103 -105 <= B <= 105
 
-Input Format First argument is an integer array A of size N. Second argument is aninteger B.
+Input Format First argument is an integer array A of size N. Second argument is an integer B.
 
 Output Format Return 1 if any such pair exists else return 0.
 
