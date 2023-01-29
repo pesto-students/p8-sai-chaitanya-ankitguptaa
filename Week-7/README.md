@@ -1,5 +1,6 @@
-WEEK 6 : ~8 hrs
-Problem 6.1: Max Sum Contiguous Subarray
+**WEEK 6** : 
+--------------
+**Problem 6.1: Max Sum Contiguous Subarray**
 Find the contiguous subarray within an array, A of length N which has the largest sum.
 Input Format:
 The first and the only argument contains an integer array, A. 
@@ -15,18 +16,25 @@ Input 2: A = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 Output 2: 6
 Explanation 2: The subarray [4,-1,2,1] has the maximum possible sum of 6.
 
+**Solution Screenshots**:
+
+Brute Force: 
+Time Complexity: O(n power of 2)
+Space Complexity: O(1)
+Kadane's Algorithm:
+Time Complexity: O(n)
+Space Complexity: O(1)
+![image](https://user-images.githubusercontent.com/9669308/215278463-1661efc5-7fe2-4b8a-a1f0-98169a9cd036.png)
+
 Problem 6.2 Spiral Order Matrix II
 Problem Description Given a matrix of m * n elements (m rows, n columns), return all elements of the matrix in spiral order.
 
-Example: Given the following matrix:
-[
-    [ 1, 2, 3 ],
-    [ 4, 5, 6 ],
-    [ 7, 8, 9 ]
-]
+Example: Given the following matrix: [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ] You should return[1, 2, 3, 6, 9, 8, 7, 4, 5]
 
-You should return
-[1, 2, 3, 6, 9, 8, 7, 4, 5]
+**Solution Screenshots**:
+![image](https://user-images.githubusercontent.com/9669308/215330144-d391c9ef-7929-47a3-bef8-63de2088c7dc.png)
+Time Complexity: O(n)
+Space Complexity: O(n)
 
 Problem 6.3 Sort array of 0's,1's and 2's
 Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order. 
@@ -50,21 +58,22 @@ Expected Auxiliary Space: O(1)
 
 Constraints: 1 <= N <= 10^6 0 <= A[i] <= 2
 
+**Solution Screenshots**:
+![image](https://user-images.githubusercontent.com/9669308/215333550-c306405a-1877-4428-99df-379bed05e4d7.png)
+
 Problem 6.4 : Best time to buy and sell stock
 
-You are given an array prices where prices[i] is the price of a given stock on the ith day.You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+You are given an array prices where prices[i] is the price of a given stock on the ith day.You want to maximize your profit by choosing a single day to buy one stock andchoosing a different day in the future to sell that stock.Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
-Example 1: Input: prices = [7,1,5,3,6,4] Output: 5
-Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5. Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+Example 1: Input: prices = [7,1,5,3,6,4] Output: 5 Explanation: Buy on day 2 (price = 1)and sell on day 5 (price = 6), profit = 6-1 = 5. Note that buying on day 2 and selling onday 1 is not allowed because you must buy before you sell. Example 2: Input: prices =[7,6,4,3,1] Output: 0 Explanation: In this case, no transactions are done and the maxprofit = 0 Constraints: 1 <= prices.length <= 105 0 <= prices[i] <= 104
 
-Example 2: Input: prices =[7,6,4,3,1] Output: 0
-Explanation: In this case, no transactions are done and the max profit = 0
-Constraints: 1 <= prices.length <= 105 0 <= prices[i] <= 104
+**Solution Screenshots**:
+![image](https://user-images.githubusercontent.com/9669308/215347668-f0d976df-35c4-492d-b6be-3a7bb53ebfc0.png)
 
 Problem 6.5: Pair With Given Difference
-Given an one-dimensional unsorted array A containing N integers.You are also given an integer B, find if there exists a pair of elements in the array whose difference is B.Return1 if any such pair exists else return 0. Problem Constraints 1 <= N <= 105 -103 <= A[i]<= 103 -105 <= B <= 105
+Given an one-dimensional unsorted array A containing N integers. You are also given an integer B, find if there exists a pair of elements in the array whose difference is B.Return1 if any such pair exists else return 0. Problem Constraints 1 <= N <= 105 -103 <= A[i]<= 103 -105 <= B <= 105
 
-Input Format First argument is an integer array A of size N. Second argument is an integer B.
+Input Format First argument is an integer array A of size N. Second argument is aninteger B.
 
 Output Format Return 1 if any such pair exists else return 0.
 
@@ -85,12 +94,12 @@ Assignment Introduction:
 
 Benchmarks
 ●All the problem should have an optimize solutions
-●All the problem statement should have the time and space complexity mention in the code comment
+●All the problem statement should have the time and space complexity mention inthe code comment
 ●The code should be readable and must follow good coding practice.
 ●Keep the code as modular as you can.
 
 Learning Outcomes:
-●Student will have a good grip on calculating time and space complexity of given loop or program
+●Student will have a good grip on calculating time and space complexity of givenloop or program
 ●Students will learn how to iterate and process array
 ●Students will learn how to use Two pointer and Kadane Algorithm to optimizecode.
 ●Students will be able to solve easy to medium level array problem
